@@ -25,21 +25,67 @@
 
 // ========================== Question no 6
 
-// a
+// ------------a
 
 // for(var i=1;i<=15;i++){
 //     console.log(i);
 // }
 
-// b 
+// ------------b 
 
 // for(var i=10;i>=1;i--){
 //     console.log(i);
 // }
 
-// c 
+// ------------c 
 
-for(var i=0;i<=10;i++){
-    console.log(i);
-    // break
-}
+// for(var i=0;i<=20;i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+// }
+
+
+// ------------d 
+
+// for(var i=0;i<=20;i++){
+//     if(i%2!==0){
+//         console.log(i);
+//     }
+// }
+
+//------------ e 
+
+// for(var i=2;i<=20;i++){
+//     if(i%2===0){
+//         console.log(i + "k");
+//     }
+
+// }
+
+
+// ========================== Question no 7
+
+
+// var A=["cake","apple pie","cookie","chips","petties"]
+// var user=prompt("wellcome to ABC bakrey .which you want")
+// var B=true;
+// for(var i=0;i<=A.length;i++){
+//     if(user===A[i]){
+//         alert( A[i] +" is available at index " + i+ " in our bakrey" )
+//         B=false
+//         break
+//     }
+// }
+// if (B){
+//     alert("we are sorry"+ user +" is not available "  )
+
+// }
+
+// ========================== Question no 8
+
+var A=[53,33,83,62,22]
+
+
+
+
