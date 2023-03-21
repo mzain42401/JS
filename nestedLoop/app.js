@@ -11,16 +11,27 @@
 // console.log(fullNames);
 
 
-var text ="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, aperiam. Quidem atque dolore optio eaque? Minus World War II nemo sequi ullam. Aliquid optio perferendis, et odit nobis ratione maiores nisi sit deserunt.";
-var find=["World War II","ullam"]
-for (var i = 0; i < text.length; i++) {
-     for(var j=0;j<find.length;j++){
-          if (text.slice(i, i + 12) === find[j] ) {
-               text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
-          }
-          console.log("z");
-     }
-     }
+// var text ="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, aperiam. Quidem atque dolore optio eaque? Minus World War II nemo sequi ullam. Aliquid optio perferendis, et odit nobis ratione maiores nisi sit deserunt.";
+// var find=["World War II","ullam"]
+// for (var i = 0; i < text.length; i++) {
+//      for(var j=0;j<find.length;j++){
+//           if (text.slice(i, i + 12) === find[j] ) {
+//                text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+//           }
+//           console.log("z");
+//      }
+//      }
     
-    console.log(text);
-    console.log(text);
+//     console.log(text);
+//     console.log(text);
+
+
+
+var city=["karachi","pakistan","islambad","jamshoro","sakkar"]
+var userCity=prompt("enter city name")
+for(var i=0;i<city.length;i++){
+if(userCity===city[i]){
+     console.log("zain");
+
+}
+}
