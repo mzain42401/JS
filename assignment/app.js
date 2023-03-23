@@ -84,8 +84,9 @@
 
 // ========================== Question no 8
 
-var A=[53,33,83,62,22]
+var A=[53,33,62,83,62,22]
 
+console.log(Math.max(...A));
 
-
-
+for(var i=0;i<A.length;i++){
+}
