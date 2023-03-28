@@ -19,15 +19,23 @@
     border-radius: 100%;
     
 }
+.container1 div{
+    width: 48px;
+    text-align: center;
+}
+#amPm{
+    font-size: 25px;
+}
 .container1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 40px;
 }
 .container2{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    margin-top: 10px;
 }
