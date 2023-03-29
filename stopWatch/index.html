@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./app.js"></script>
+    <script src="./app.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="mainContainer">
 <div class="container1">
 
-<div>00</div>
+<div id="hours">00</div>
 <span>:</span>
-<div>00</div>
+<div id="mint">00</div>
 <span>:</span>
-<div>00</div>
+<div id="sec">00</div>
 <span>:</span>
-<div>00</div>
+<div id="milisec">00</div>
 
 </div>
 <div class="container2">
-    <button>start</button>
+    <button onclick="start()" >start</button>
     <button>stop</button>
+    <button >Reset</button>
+
 </div>
 
 
