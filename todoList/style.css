@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#todoApp{
+    background-color: rgb(55, 7, 123);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+#inp{
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    outline: none;
+}
+#mainDiv{
+    display: flex;
+    margin: auto 0;
+}
+#addTodo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+padding: 20px;
+box-shadow:  10px 10px 30px 12px gray;
+border-radius: 10px;
+margin-top: 15px;
+margin-left: 27%;
+}
+#btnDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#btn{
+    background-color:rgb(55, 7, 123) ;
+    color: white;
+    margin-left: 5px;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+
+}
+#btn:hover{
+    background-color: white;
+    color:rgb(55, 7, 123) ; 
+    transition: .9s;
+font-family: 'Secular One', sans-serif;
+border: 2px solid rgb(55, 7, 123) ;
+cursor: pointer;
+}
+#ul{
+    display: flex;
+    justify-content: center;
+margin-top: 20px;    
+font-family: 'Secular One', sans-serif;
+
+}
+ul{
+    list-style:decimal;
+}
+ul li{
+    border-bottom: 2px solid black;
+    padding: 15px;
+
+}
+.democlass{
+    background-color:rgb(55, 7, 123)  ;
+    padding: 5px;
+    color: white;
+font-family: 'Secular One', sans-serif;
+border-radius: 10px;
+margin-left: 5px;
+
+}
+.democlass:hover{
+    background-color: white;
+    color:rgb(55, 7, 123) ; 
+    transition: .5s;
+font-family: 'Secular One', sans-serif;
+border: 2px solid rgb(55, 7, 123) ;
+
+}
+.democlass:active{
+    background-color: white;
+    color:rgb(55, 7, 123) ; 
+    transition: .5s;
+font-family: 'Secular One', sans-serif;
+border: 2px solid rgb(55, 7, 123) ;}
