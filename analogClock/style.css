@@ -4,8 +4,9 @@
 }
 #mainContainer{
     position: relative;
-    background: url(Gold\ Luxury\ Initial\ Circle\ Logo\ \(3\).png) no-repeat;
+    background: url(./images/bg.png) no-repeat;
     background-size: cover;
+    
     height: 30vw;
     width: 30vw;
      margin: auto;
@@ -13,7 +14,7 @@
      border-radius: 100%;
 }
 .subContainer{position: absolute;
-    background: url(dd-removebg-preview.png);
+    background: url(./images/clock.png);
     background-size: cover;
     height: 38vw;
     width: 38vw;
