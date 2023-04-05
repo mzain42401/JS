@@ -12,10 +12,7 @@ var forDisable=true
 var interval;
 const start=()=>{
 interval= setInterval(()=>{
-    forDisable=false
-    if(forDisable===false){
-        document.getElementById("startBtn").disabled=true
-    }
+    
     mili++
     milisec.innerText=mili
     if(mili>=100){
@@ -28,6 +25,10 @@ interval= setInterval(()=>{
         mint++
         mintue.innerText=mint
         sec=0
+    }
+    forDisable=false
+    if(forDisable===false){
+        document.getElementById("startBtn").disabled=true
     }
 },10)
 

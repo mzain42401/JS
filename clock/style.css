@@ -24,7 +24,7 @@
 }
 
 #amPm{
-    font-size: 17px;
+    font-size: 15px;
     
 }
 .container1{
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 12px;
 }
 .container2 div{

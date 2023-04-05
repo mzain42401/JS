@@ -5,6 +5,8 @@ var amPm = document.getElementById("amPm")
 var date=document.getElementById("date")
 var day=document.getElementById("day")
 var month=document.getElementById("month")
+var year=document.getElementById("year")
+
 
 
 
@@ -14,6 +16,7 @@ setInterval(function(){
     mint.innerText=newDate.getMinutes();
     sec.innerText=newDate.getSeconds();
     date.innerText=newDate.getDate();
+    year.innerText=newDate.getFullYear()
     
 
     var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]

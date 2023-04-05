@@ -1,7 +1,7 @@
 function clicked() {
     var inp = document.getElementById("inp")
     if (inp.value.length != 0) {
-        var UL = document.getElementById("unorderList")
+        var UL = document.getElementById("unorderList");
         var create_Element = document.createElement("li")
 
 
