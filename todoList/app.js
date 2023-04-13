@@ -3,6 +3,8 @@ function clicked() {
     if (inp.value.length != 0) {
         var UL = document.getElementById("unorderList");
         var create_Element = document.createElement("li")
+        var btnDiv=document.createElement("div")
+
 
 
         var creat_button1 = document.createElement("button")
@@ -21,11 +23,15 @@ function clicked() {
         var creat_button2_TextNode = document.createTextNode("Delete")
         creat_button2.appendChild(creat_button2_TextNode)
 
+        
+
 
         var create_TextNode = document.createTextNode(inp.value)
+        
         create_Element.appendChild(create_TextNode)
-        create_Element.appendChild(creat_button1)
-        create_Element.appendChild(creat_button2)
+        btnDiv.appendChild(creat_button1)
+        btnDiv.appendChild(creat_button2)
+        create_Element.appendChild(btnDiv)
 
         UL.appendChild(create_Element)
         inp.value = ""

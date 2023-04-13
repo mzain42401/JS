@@ -56,6 +56,19 @@
 // }
 
 
+//  let fruits = ["Banana", "Orange", "Apple","Orange", "Mango", "Kiwi"];
+//  let map=fruits.map((val,ind)=>{
+//     return val+ " - " + ind
+//  })
+
+//  let filter=fruits.filter((val,ind)=>{
+// return(
+//    val==="Banana"
+// )
+//  })
+// console.log(filter);
+
+
 
 
 
