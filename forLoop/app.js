@@ -26,5 +26,11 @@
     
 // }
 
-
+let user=prompt();
+let userLength=user.length;
+for(let i=0; i<userLength; i++){
+if(user.charAt(i)==="@"){
+alert("zan")
+}
+}
 
