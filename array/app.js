@@ -117,3 +117,52 @@
 // var a=["zain","saad","ali","amna","saad"]
 // var b=a.lastIndexOf("saad",2)
 // console.log(b);
+
+
+// var cleanestCities = ["cheyenne", "cheyenne", "Santa Fe", "santa fe", "tucson", "tucson", "Great Falls","great falls", "honolulu", "honolulu"];
+// var arry="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti doloribus hic obcaecati, officiis placeat voluptates accusamus! Sapiente, eaque totam iure assumenda pariatur voluptatibus! Nemo eos a necessitatibus veniam quas blanditiis?"
+// var a=prompt()
+// a=a.toLocaleUpperCase()
+// cleanestCities=cleanestCities.length
+// cleanestCities=cleanestCities.indexOf("tucson")
+// arry=arry.indexOf("Nemo")
+// arry=arry.charAt(arry.length-1)
+// arry=arry.replace("dolor","zain")
+
+// var num=Math.random()*2
+// num=Math.ceil(num)
+// num=num.toFixed(0)
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var mydate=new Date()
+// mydate=mydate.getDate()
+//  mydate=mydate.getDay()
+// mydate=mydate.getFullYear()
+// mydate=mydate.getHours()
+// mydate=mydate.getTime()
+// b=mydate.getMilliseconds()
+
+
+// console.log(b);
+
+// console.log(mydate);
+
+
+// var user=prompt()
+// switch (user){
+// case "karachi":
+//     alert("city of light")
+//     break;
+//     case "lahore":
+//     alert("city of lahore")
+//     break;
+//     case "islamabad":
+//     alert("city of islamabad")
+//     break;
+//     case "multan":
+//     alert("city of multan")
+//     break;
+//     default :
+//     alert("wrong")
+
+// }
