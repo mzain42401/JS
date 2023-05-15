@@ -1,11 +1,46 @@
-function Student (name,roll,height,weigth) {
-this.name=name;
-this.roll=roll;
-this.height=height;
-this.weigth=weigth
+// function Student (name,roll,height,weigth) {
+// this.name=name;
+// this.roll=roll;
+// this.height=height;
+// this.weigth=weigth
+// }
+// var zain=new Student("zain",9022,5.7,"67kg")
+// console.log(zain);
+
+var likerName=prompt("enter your name")
+var likerGender=prompt("enter your gender")
+
+function ContructuorFunction(name ,  gender){
+    this.Name=name;
+    this.Gender=gender
+    this.liked=function(user){
+        
+            console.log(this.Name + " liked " + user);
+        
+    }
+    
+    
+    }
+    
+
+
+
+    
+var first=new ContructuorFunction(likerName ,likerGender)
+console.log(first);
+function clicked(name){
+if(name==="Aliza" && likerGender==="male"){
+    alert("not allowed")
 }
-var zain=new Student("zain",9022,5.7,"67kg")
-console.log(zain);
+else{
+    first.liked(name)
+}
+}
+
+
+
+
+
 
 
 

@@ -166,3 +166,26 @@
 //     alert("wrong")
 
 // }
+
+var array=[1,2,3,4,5]
+// var include=array.includes(3)
+// console.log(include);
+
+
+// var index=array.indexOf(4)
+// console.log(index);
+
+// var a=array.find(elment=>{
+
+// return    elment>100
+// })
+// console.log(a
+//     );
+
+    
+// var a=array.findIndex(elment=>{
+
+//     return    elment>100
+//     })
+//     console.log(a
+//         );
