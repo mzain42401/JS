@@ -167,8 +167,8 @@
 
 // }
 
-var array=[1,2,3,4,5]
-// var include=array.includes(3)
+// var array=[1,2,3,4,5]
+// var include=array.includes(3,2)
 // console.log(include);
 
 
@@ -189,3 +189,22 @@ var array=[1,2,3,4,5]
 //     })
 //     console.log(a
 //         );
+
+
+let numbers = [10,15,17, 20,19,27, 30,40,50,60];
+
+// const length = numbers.push(70);
+
+
+//  numbers.forEach(function (val){
+// console.log( val + 1);
+//  });
+
+
+var check=numbers.filter((val)=>{
+return val%2===0
+})
+console.log(check);
+
+// console.log(length);
+// console.log(a);
