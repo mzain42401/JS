@@ -191,7 +191,7 @@
 //         );
 
 
-let numbers = [10,15,17, 20,19,27, 30,40,50,60];
+// let numbers = [10,15,17, 20,19,27, 30,40,50,60];
 
 // const length = numbers.push(70);
 
@@ -201,10 +201,10 @@ let numbers = [10,15,17, 20,19,27, 30,40,50,60];
 //  });
 
 
-var check=numbers.filter((val)=>{
-return val%2===0
-})
-console.log(check);
+// var check=numbers.filter((val)=>{
+// return val%2===0
+// })
+// console.log(check);
 
 // console.log(length);
 // console.log(a);
